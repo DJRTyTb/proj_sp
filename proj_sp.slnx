@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Элементы решения/">
+    <File Path="server/README.md" />
+  </Folder>
+  <Project Path="Server/Server.csproj" />
+  <Project Path="Tests/Tests.csproj" />
+</Solution>

@@ -1,0 +1,72 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet
+packages/
+*.nupkg
+
+# Generated files
+Generated/
+publish/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# JetBrains Rider
+*.sln.iml
+
+# Local secrets and configuration
+appsettings.Development.json
+secrets.json
+
+# ASP.NET Core local certificates
+*.pfx
+
+# Node modules (если когда-нибудь появится отдельный фронтенд)
+node_modules/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# Publish output
+wwwroot/dist/
