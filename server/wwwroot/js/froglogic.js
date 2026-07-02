@@ -206,7 +206,6 @@ function onCellClicked(col, row) {
     if (!frog) return;
     if (frog.color !== myColor) return;
 
-    console.log(startCell);
     if (moveInProgress && startCell.row === row && startCell.col === col) {
         selectedPath.push({ row, col });
         drawPath();
@@ -227,6 +226,8 @@ function onBoardCellClicked(col, row) {
 
     const frog = currentState.cells.find(c => c.col === col && c.row === row);
     if (frog) return;
+
+    if (selectedPath[selectedPath.length - 1].row === row && selectedPath[selectedPath.length - 1].col === col) return;
 
     selectedPath.push({ row, col });
     drawPath();
